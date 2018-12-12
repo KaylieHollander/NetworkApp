@@ -12,6 +12,7 @@
 		01F0F0EF21C16F3F00143C8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F0F0ED21C16F3F00143C8C /* Main.storyboard */; };
 		01F0F0F121C16F4F00143C8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F0F0F021C16F4F00143C8C /* Assets.xcassets */; };
 		01F0F0F421C16F4F00143C8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F0F0F221C16F4F00143C8C /* LaunchScreen.storyboard */; };
+		01F0F0FF21C16FF900143C8C /* Internet Screen Topics.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01F0F0FE21C16FF900143C8C /* Internet Screen Topics.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		01F0F0F021C16F4F00143C8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01F0F0F321C16F4F00143C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01F0F0F521C16F4F00143C8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01F0F0FE21C16FF900143C8C /* Internet Screen Topics.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Internet Screen Topics.pdf"; path = "../../../../../Downloads/Internet Screen Topics.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		01F0F0FB21C16F6B00143C8C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				01F0F0FE21C16FF900143C8C /* Internet Screen Topics.pdf */,
 				01F0F0E921C16F3F00143C8C /* AppDelegate.swift */,
 				01F0F0F021C16F4F00143C8C /* Assets.xcassets */,
 				01F0F0F521C16F4F00143C8C /* Info.plist */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01F0F0F421C16F4F00143C8C /* LaunchScreen.storyboard in Resources */,
+				01F0F0FF21C16FF900143C8C /* Internet Screen Topics.pdf in Resources */,
 				01F0F0F121C16F4F00143C8C /* Assets.xcassets in Resources */,
 				01F0F0EF21C16F3F00143C8C /* Main.storyboard in Resources */,
 			);
