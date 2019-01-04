@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0107D33B21DD1EEB0028048F /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0107D33A21DD1EEB0028048F /* InternetMasterViewController.swift */; };
 		01F0F0EA21C16F3F00143C8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F0F0E921C16F3F00143C8C /* AppDelegate.swift */; };
-		01F0F0EC21C16F3F00143C8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F0F0EB21C16F3F00143C8C /* ViewController.swift */; };
+		01F0F0EC21C16F3F00143C8C /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F0F0EB21C16F3F00143C8C /* InternetDetailViewController.swift */; };
 		01F0F0EF21C16F3F00143C8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F0F0ED21C16F3F00143C8C /* Main.storyboard */; };
 		01F0F0F121C16F4F00143C8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F0F0F021C16F4F00143C8C /* Assets.xcassets */; };
 		01F0F0F421C16F4F00143C8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F0F0F221C16F4F00143C8C /* LaunchScreen.storyboard */; };
@@ -16,9 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0107D33A21DD1EEB0028048F /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 		01F0F0E621C16F3F00143C8C /* NetworkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F0F0E921C16F3F00143C8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		01F0F0EB21C16F3F00143C8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01F0F0EB21C16F3F00143C8C /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		01F0F0EE21C16F3F00143C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01F0F0F021C16F4F00143C8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01F0F0F321C16F4F00143C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -86,7 +88,8 @@
 		01F0F0FD21C16F7B00143C8C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				01F0F0EB21C16F3F00143C8C /* ViewController.swift */,
+				01F0F0EB21C16F3F00143C8C /* InternetDetailViewController.swift */,
+				0107D33A21DD1EEB0028048F /* InternetMasterViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -163,7 +166,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01F0F0EC21C16F3F00143C8C /* ViewController.swift in Sources */,
+				01F0F0EC21C16F3F00143C8C /* InternetDetailViewController.swift in Sources */,
+				0107D33B21DD1EEB0028048F /* InternetMasterViewController.swift in Sources */,
 				01F0F0EA21C16F3F00143C8C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
